@@ -2,14 +2,9 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+dffghhjkjkl;l
+
 # init driver
-driver = webdriver.Chrome()
-
-# open the url
-driver.get('https://www.google.com/')
-
-search = driver.find_element(By.NAME, 'q')
-search.clear()
 search.send_keys('Dress')
 
 # wait for 4 sec
